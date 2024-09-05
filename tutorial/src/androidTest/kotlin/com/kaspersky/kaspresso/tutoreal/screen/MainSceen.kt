@@ -13,4 +13,5 @@ object MainSceen: KScreen<MainSceen>() {
     val wifiActivityButton = KButton {withId(R.id.wifi_activity_btn)}
     val loginActivityButton = KButton {withId(R.id.login_activity_btn)}
     val notificationActivityButton = KButton {withId(R.id.notification_activity_btn)}
+    val flakyActivityButtom = KButton {withId(R.id.flaky_activity_btn)}
 }
