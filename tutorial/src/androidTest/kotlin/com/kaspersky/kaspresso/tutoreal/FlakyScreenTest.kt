@@ -38,11 +38,11 @@ class FlakyScreenTest : TestCase() {
                 text3.isVisible()
                 text4.isVisible()
                 text5.isVisible()
-//                progressBar1.isVisible()  баг в туториале, нет лоудера
-//                progressBar2.isVisible()
-//                progressBar3.isVisible()
-//                progressBar4.isVisible()
-//                progressBar5.isVisible()
+                progressBar1.isVisible()  //баг в туториале, нет лоудера
+                progressBar2.isVisible()
+                progressBar3.isVisible()
+                progressBar4.isVisible()
+                progressBar5.isVisible()
             }
         }
         step("Check first element after loading") {
