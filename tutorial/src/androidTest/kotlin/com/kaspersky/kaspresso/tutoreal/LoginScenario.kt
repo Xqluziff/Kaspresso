@@ -14,6 +14,7 @@ class LoginScenario(
     override val steps: TestContext<Unit>.() -> Unit = {
         step("Открытие Главного экрана"){
             MainSceen{
+
                 loginActivityButton{
                     isVisible()
                     isClickable()
